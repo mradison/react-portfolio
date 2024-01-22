@@ -2,5 +2,10 @@
 import Navigation from "./Navigation";
 
 export default function Header() {
-  return <Navigation />;
+  return (
+  <div>
+    <h1>Madison Reynolds</h1>
+  <Navigation />
+    </div>
+    );
 }

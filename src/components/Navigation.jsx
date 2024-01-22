@@ -7,21 +7,20 @@ export default function Navigation() {
       <div className="container-fluid">
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-      links=
-      {[
-        <Link key={1} className="nav-link text-light" to="/">
+    
+        <a className="nav-link text-light" >
           About Me
-        </Link>,
-        <Link key={2} className="nav-link text-light" to="/about">
+        </a>,
+        <a className="nav-link text-light">
           Portfolio
-        </Link>,
-        <Link key={1} className="nav-link text-light" to="/">
+        </a>,
+        <a className="nav-link text-light">
           Contact
-        </Link>,
-        <Link key={2} className="nav-link text-light" to="/about">
+        </a>,
+        <a className="nav-link text-light">
           Resume
-        </Link>,
-      ]}
+        </a>,
+    
           </ul>
         </div>
       </div>
