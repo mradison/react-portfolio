@@ -44,6 +44,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 Here are some websites I used to help me with my assignment: (I also got help from my instructor, TA and Tutor):
 
+https://www.youtube.com/watch?v=0FRyKY_PMLE
+
+https://www.youtube.com/watch?v=KaX38A_PI6I
 
 
 I also went back to previous assignments and activities to get tips on how to code this assignment. 
