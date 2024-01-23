@@ -1,27 +1,26 @@
+import { Link } from 'react-router-dom';
+import Navbar from './UI/Navbar';
+
 export default function Navigation() {
   return (
-    <nav className="navbar navbar-expand-lg bg-secondary">
-      <div className="container-fluid">
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+    <Navbar
+      links={[
     
-        <a className="nav-link text-light" >
+        <Link key={1} className="nav-link text-light" to="/">
           About Me
-        </a> 
-        <a className="nav-link text-light">
+        </Link>, 
+        <Link key={2} className="nav-link text-light" to="/portfolio">
           Portfolio
-        </a>
-        <a className="nav-link text-light">
+        </Link>,
+        <Link key={3} className="nav-link text-light" to="/contact">
           Contact
-        </a>
-        <a className="nav-link text-light">
+        </Link>,
+        <Link key={4} className="nav-link text-light" to="/resume">
           Resume
-        </a>
+        </Link>,
     
-          </ul>
-        </div>
-      </div>
-    </nav>
+  ]}
+  />
   );
 };
 

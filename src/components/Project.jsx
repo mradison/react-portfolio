@@ -1,5 +1,6 @@
 import madisonImage from "../assets/madisonImage.jpg";
-import magicMenu from "../assets/magicMenu.jpg"
+import magicMenu from "../assets/magicMenu.jpg";
+import usedCarUniverseImage from "../assets/usedCarUniverseImage.png";
 import "../assets/css/project.css";
 
 export default function Project() {
@@ -17,7 +18,7 @@ export default function Project() {
     {
       title: "Project 3",
       link: "3 Link",
-      img: magicMenu,
+      img: usedCarUniverseImage,
     },
   ];
 
