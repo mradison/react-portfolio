@@ -1,6 +1,3 @@
-import { Link } from "react-router-dom";
-// import "./App.css";
-
 export default function Navigation() {
   return (
     <nav className="navbar navbar-expand-lg bg-secondary">
@@ -10,16 +7,16 @@ export default function Navigation() {
     
         <a className="nav-link text-light" >
           About Me
-        </a>,
+        </a> 
         <a className="nav-link text-light">
           Portfolio
-        </a>,
+        </a>
         <a className="nav-link text-light">
           Contact
-        </a>,
+        </a>
         <a className="nav-link text-light">
           Resume
-        </a>,
+        </a>
     
           </ul>
         </div>

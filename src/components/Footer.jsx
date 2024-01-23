@@ -1,10 +1,8 @@
-
-
 export default function Footer() {
     return (
         <>
-        <h1>hello world</h1>
-        <h2>Coprights Reserved</h2>
+        <h1>Thanks for coming!</h1>
+        <h2>Copyrights Reserved</h2>
        </>
     );
 }
