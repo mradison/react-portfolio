@@ -15,5 +15,48 @@ canvas.react-pdf__Page__canvas {
     margin-bottom: 15px;
 }
 
+.footer{
+    padding: 100px;
+    margin: 100px;
+    display: block;
+    align-items: center;
 
-  
+}
+
+.header{
+    padding: 15px;
+    margin: 15px;
+    display: block;
+    align-items: center;
+
+}
+
+body{
+    background-color: blue;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 60px;
+}
+
+.contact_form .form-control {
+    padding: 1.375rem .75rem;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color:lightblue;
+    border-radius: 0 !important;
+    border: 1px solid #ffffff;
+}
+
+.contact_form .input.form-control {
+    margin-bottom: 2em;
+    height: calc(2.4em + .75rem + 2px);
+}
+
+.btn {
+   color: white; 
+   border: 2px solid white;
+}
+
+.btn:hover {
+    color: white;
+}

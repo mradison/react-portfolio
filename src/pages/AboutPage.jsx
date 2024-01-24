@@ -1,9 +1,6 @@
 export default function AboutPage() {
     return (
       <div className="container pt-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
-        </p>
         <section className="features-icons bg-light text-center m-4">
           <div className="container">
             <div className="row p-2">
