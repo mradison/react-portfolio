@@ -14,7 +14,7 @@ export default function ContactPage() {
         <Col lg="5" className="mb-5">
           <h3 className="color_sec py-4">Get in touch</h3>
           <address>
-            <strong>Email: madison.reynolds@phoenix.edu </strong>
+            <strong>Email: <a href="madison.reynolds@phoenix.edu">madison.reynolds@phoenix.edu</a></strong>
             <br />
             <br />
             <p>

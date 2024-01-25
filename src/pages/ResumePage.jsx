@@ -20,6 +20,10 @@ export default function ResumePage() {
 
   return (
     <div className="pdf-div">
+      <div>
+      <a href="https://docs.google.com/document/d/18ChacLfHr7czuSs4zNrNjVz3UWXDZ2zBwuIQazS-7n4/edit?usp=sharing">Download My Resume Here</a>
+      </div>
+      <br />
       <Document file={madisonResume} onLoadSuccess={onDocumentLoadSuccess}>
         {Array.apply(null, Array(numPages))
           .map((x, i) => i + 1)

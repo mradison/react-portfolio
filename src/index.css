@@ -65,6 +65,13 @@ canvas.react-pdf__Page__canvas {
     margin-left: auto!important;
 }
 
+.footer-links {
+    display: block;
+    background-color: var(--red);
+    color: var(--white);
+    flex-wrap: wrap;
+}
+
 /* .mainNavbar {
     display: flex;
     justify-content: end;
