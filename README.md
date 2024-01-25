@@ -38,7 +38,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Mock Up and Video of working application
 
+https://nimble-queijadas-afbc7a.netlify.app/
 
+https://github.com/mradison/react-portfolio
 
 ## Notes
 
