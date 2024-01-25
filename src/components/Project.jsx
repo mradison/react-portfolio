@@ -7,8 +7,8 @@ export default function Project() {
   const allProjects = [
     {
       title: "Project 1",
-      link: "1 Link",
-      img: madisonImage,
+      link: 'https://aqueous-coast-47792-7cd474c52b1d.herokuapp.com/',
+      img: usedCarUniverseImage,
     },
     {
       title: "Project 2",
@@ -30,8 +30,10 @@ export default function Project() {
         {allProjects.map((project, index) => (
           <section key={index}>
             <h2>{project.title}</h2>
-            <a>Link: {project.link}</a>
             <img src={project.img} alt="test" width={300} height={300} />
+            <p>
+            <a>{project.link}</a>
+            </p>
           </section>
         ))}
       </div>

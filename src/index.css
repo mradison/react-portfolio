@@ -16,24 +16,24 @@ canvas.react-pdf__Page__canvas {
 }
 
 .footer{
-    padding: 100px;
-    margin: 100px;
+    padding: 50px;
+    margin: 50px;
     display: block;
     align-items: center;
 
 }
 
-.header{
+.nameHeader{
     padding: 15px;
     margin: 15px;
-    display: block;
-    align-items: center;
-
+    margin-left: 50px;
+    color: blue;
+    font-weight: bold;
 }
 
-body{
+.aboutMeContainer {
     background-color: blue;
-    color: #ffffff;
+    color:black;
     font-family: 'Raleway', sans-serif;
     padding-top: 60px;
 }
@@ -60,3 +60,13 @@ body{
 .btn:hover {
     color: white;
 }
+
+.me-auto {
+    margin-left: auto!important;
+}
+
+/* .mainNavbar {
+    display: flex;
+    justify-content: end;
+    background-color: yellow;
+} */

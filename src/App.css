@@ -11,6 +11,8 @@
   color: #646cff;
   text-decoration: inherit;
   margin: 20px;
+  display: block;
+  align-items: end;
 
 }
 
